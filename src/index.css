@@ -5,7 +5,7 @@
 }
 ::-webkit-scrollbar-thumb {
   border-radius: 999px;
-  background-color: snow;
+  background-color: rgb(179, 177, 177);
 }
 body {
   background-color: rgb(255, 255, 255);
@@ -60,7 +60,7 @@ ul li .todo-title-input {
 }
 ul li p {
   width: 150px;
-  overflow: auto;
+  overflow: scroll;
 }
 .btn-edit {
   background-color: rgb(54, 88, 240);
