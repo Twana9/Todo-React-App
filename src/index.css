@@ -1,0 +1,77 @@
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background-color: snow;
+}
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: sans-serif;
+}
+.btn {
+  padding: 7px 20px;
+  border: none;
+  border-radius: 4px;
+  margin-left: 3px;
+  font-weight: bold;
+  color: #fff;
+}
+.todo-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.todo-app {
+  width: 500px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+/* Add-Todo/////////////////////////////// */
+.todo-input input {
+  width: 380px;
+  margin-bottom: 17px;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+.todo-input .btn-add {
+  background-color: rgb(35, 175, 0);
+}
+/* Task-List////////////////////////////// */
+ul {
+  padding-left: 0;
+}
+ul li {
+  list-style: none;
+  display: flex;
+  border-bottom: 1px solid rgb(238, 236, 236);
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+ul li .todo-title-input {
+  width: 130px;
+}
+ul li p {
+  width: 150px;
+  overflow: auto;
+}
+.btn-edit {
+  background-color: rgb(54, 88, 240);
+}
+.btn-save {
+  padding: 7px 17px;
+  background-color: rgb(6, 179, 21);
+}
+.btn-move {
+  background-color: rgb(230, 226, 3);
+}
+.btn-delete {
+  background-color: red;
+}
