@@ -1,10 +1,11 @@
 import viteLogo from "/vite.svg";
-import "./App.css";
 import TodoApp from "./TodoApp";
+import Clock from "./components/Clock";
 
 function App() {
   return (
     <>
+      <Clock />
       <TodoApp />
     </>
   );

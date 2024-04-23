@@ -35,6 +35,7 @@ body {
 }
 /* Add-Todo/////////////////////////////// */
 .todo-input input {
+  border: 2px solid rgb(201, 199, 199);
   width: 380px;
   margin-bottom: 17px;
   padding: 5px 10px;
@@ -74,4 +75,20 @@ ul li p {
 }
 .btn-delete {
   background-color: red;
+}
+/* Clock/////////////////////////// */
+.clock-container {
+  height: 85px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clock-container p {
+  color: rgb(201, 5, 5);
+  border: 3px solid rgb(235, 228, 228);
+  border-radius: 10px;
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 28px;
 }
